@@ -17,6 +17,7 @@ library(tidyverse)
 
 ### Task 2: Load the UMD Fees dataset from https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/umd_fees.csv
 
+
 ```{r}
 umd_fees <- read_csv("https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/umd_fees.csv")
 ```
@@ -32,8 +33,23 @@ umd_fees_pct <- umd_fees |> mutate(pct_change = (`Fall 2024`- `Fall 2021`)/`Fall
 ### Task 4: Describe our results
 
 Write a few sentences about what you found in the data. What's the story here?
+Student activities had the largest increase by about 14.6%. This shows us that the university is putting more funds and effort into increasing student life around campus and offering new ways for them to connect with the community. If I were to do a story about this, I would take a look at what specific activities are seeing funds, and if students are actually using those resources. 
+```{r}
+md_fees_pct__2524 <- umd_fees |> mutate(pct_change = (`Fall 2025`- `Fall 2024`)/`Fall 2024` * 100)
+```
 
+```{r}
+comp <- read_csv("https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/class_composition.csv")
 
+comp |>
+  summarize(
+    mean_first = mean(first_year),
+    mean_soph = mean(sophomore),
+    mean_junior = mean(junior),
+    mean_senior = mean(senior),
+    mean_grad = mean(grad)
+  )
+```
 
 
 
