@@ -49,7 +49,7 @@ geom_vline(aes(xintercept = mean(danceability)), color = "red", linetype = "dash
 
 Write a few sentences about the distribution of danceability scores in the Spotify dataset. Is it a normal distribution, or is it skewed in one direction? What does the mean and distribution tell us about the songs in the dataset?
 
-
+This distribution is not normal. The whole graph is filled in black, so I can't even read the distribution. I suppose this means that people listening to music on spotify have all different music tastes?
 
 ### Task 7: Save Your Work and Put it on GitHub
 
