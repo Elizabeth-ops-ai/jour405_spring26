@@ -45,7 +45,7 @@ Let's add two percentage change columns to your dataframe: one for violent crime
 
 ```{r}
 md_cities_change <- md_cities_rates |> 
-  mutate(violent_change = ((violent_rate_2020 - violent_rate_2019) / violent_rate_2019) * 100,
+  mutate(violent_change = ((violent_rate2020 - violent_rate_2019) / violent_rate_2019) * 100,
          property_change = ((property_rate_2020 - property_rate_2019) / property_rate_2019) * 100)
 ```
 
@@ -53,13 +53,15 @@ md_cities_change <- md_cities_rates |>
 
 Look at the `md_cities_change` dataframe by clicking on it in the Environment tab in RStudio. Write a couple of sentences describing the percentage change results. What's more interesting here, the patterns or the outliers? What's the story in the data?
 
-ANSWER HERE
+Crisfield had a 320% change, which was the highest percent change in the data. The lowest was Brookeville with a -100% change. I would write a story about Crisfield and why it had such an extreme switch in percent.
 
 ### Task 8: Tell the Best Story
 
 Write up a lede and nutgraf of a story with the _best_ story idea you've found in this assignment. The lede should be a single sentence that summarizes the most important information in the data. The nutgraf should be a paragraph that provides more context and explains why the data is important.
 
-ANSWER HERE
+This Maryland vacation spot might not be paradise after all.
+
+New data shows that Ocean City, Maryland took the spot for the city with the most property crime for 2019 and 2020 as well as most violent crime in 2020. In just one year alone, violent crime for the city rose by more than 80%.
 
 ### Task 9: Save Your Work and Put it on GitHub
 
