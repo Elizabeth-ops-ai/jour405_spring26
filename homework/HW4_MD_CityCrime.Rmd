@@ -66,3 +66,12 @@ New data shows that Ocean City, Maryland took the spot for the city with the mos
 ### Task 9: Save Your Work and Put it on GitHub
 
 Save this notebook, then commit it to your local repository. Push the changes to your GitHub repository and submit the URL for this file in ELMS.
+
+### Task 10: Homework 5
+```{r}
+md_cities_percentiles <- md_cities_change |> mutate(violent_percentile = ntile(violent_rate2020, 100))
+
+md_cities_percentiles |>
+  summarize(IQR = IQR(violent_rate2020))
+```
+These results don't necessarily change my original story. Ocean City is still in the 100th percentile, which just gives me more data to add to my story.
