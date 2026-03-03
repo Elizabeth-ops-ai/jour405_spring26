@@ -27,19 +27,12 @@ library(knitr)      # For nice tables
 library(lubridate)  # For working with dates
 ```
 
-## Loading the Data
+### Task 1: Loading the Data (1 point)
 
-We'll load the accident data from our CSV file:
+Load the accident data from our CSV file at https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/daily_accidents.csv into a dataframe called `accidents`:
 
 ```{r load-data}
-# Load accident data
 accidents <- read_csv("https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/daily_accidents.csv")
-
-# Display the first few rows
-head(accidents)
-
-# Check basic info about the dataset
-glimpse(accidents)
 ```
 
 ## Data Exploration
@@ -63,19 +56,19 @@ Now let's create a time series visualization of accidents:
 ```{r time-series-plot}
 # Plot time series
 ggplot(accidents, aes(x = date, y = total)) +
-  geom_line(alpha = 0.5) +
-  geom_smooth(method = "loess", span = 0.1) +
+  geom_line(alpha = .5) +
+  geom_smooth(method = "loess", span = .2) +
   theme_minimal() +
   labs(title = "Daily Accidents in Prince George's County",
        x = "Date",
-       y = "Number of Accidents",
+       y = "Total",
        caption = "Source: Prince George's County Accident Data")
 ```
 
-### Task 1 (3 points)
+### Task 2 (3 points)
 Looking at the time series visualization above, identify at least two noticeable patterns or anomalies. What questions would you want to investigate further based on this initial view of the data? How might these visual patterns translate into potential story angles?
 
-ANSWER HERE
+The first thing that struck out to me was the period in 2020 that had the intense dip in total accidents. We know this is because of covid, and people weren't traveling as much then. The other point that stood out was in late 2021 with a high spike. I can assume this is when covid started to die down a little and people started going out again.
 
 The daily data is quite noisy, so let's also look at weekly patterns:
 
@@ -111,14 +104,16 @@ ggplot(accidents, aes(x = day_of_week, y = total)) +
        caption = "Source: Prince George's County Accident Data")
 ```
 
-### Task 2 (2 points)
+### Task 3 (2 points)
 Based on the day-of-week analysis, which day(s) have the highest and lowest average accidents? Why might these patterns exist?
 
-ANSWER HERE
+Fridays have the highest average while Mondays have the lowest. Thes epatterns exist because Fridays usually have people going out and having fun for the start of the weekend while Monday is the start of the work week.
 
 ## Calculating Z-Scores
 
-Now, let's calculate z-scores for our accident totals:
+### Task 4 (2 points)
+
+Now, using the accidents dataframe, add three columns using `mutate()`: mean_accidents, sd_accidents and z_score, based on the example from class.
 
 ```{r calculate-z-scores}
 # Calculate z-scores for total accidents
@@ -126,7 +121,7 @@ accidents <- accidents |>
   mutate(
     mean_accidents = mean(total),
     sd_accidents = sd(total),
-    z_score = (total - mean_accidents) / sd_accidents
+    z_score = (total- mean_accidents) / sd_accidents
   )
 
 # Display the data with z-scores
@@ -158,10 +153,10 @@ unusual_days |>
   kable(digits = 2)
 ```
 
-### Task 3 (3 points)
+### Task 5 (3 points)
 Choose one of the top 10 unusual days and research what might have happened on that date. Look for weather events, holidays, major incidents, or other factors that could explain the unusual number of accidents. Briefly describe your findings and how you would incorporate this context into a story.
 
-ANSWER HERE
+The highest date was October 19, 2021 with 58 total accidents. During this time, there's Halloween gearing up, plus loads of sport games and slick leaves with autumn. I would put this in a story about how to stay safe driving during this month.
 
 Let's visualize these unusual days:
 
@@ -182,7 +177,9 @@ ggplot(accidents, aes(x = date, y = total, color = abs(z_score) > 2)) +
 
 ## Day of Week Patterns
 
-Let's calculate z-scores that account for day of week patterns:
+### Task 6 (3 points)
+
+Let's calculate z-scores that account for day of week patterns based on the same pattern as above:
 
 ```{r day-of-week-z-scores}
 # Calculate day-of-week adjusted z-scores
@@ -207,10 +204,10 @@ unusual_dow |>
   kable(digits = 2)
 ```
 
-### Task 4 (3 points)
+### Task 7 (3 points)
 Compare the days that have extreme z-scores overall versus those with extreme day-of-week z-scores. How do these lists differ? What journalistic insights can you draw from comparing these two different approaches to measuring "unusual" days?
 
-ANSWER HERE
+The two actually seem pretty similar in data. I was looking at the z scores, and they're only off by like .3-.5 points.
 
 Let's see how many unusual days we have for each day of the week:
 
@@ -286,10 +283,10 @@ unusual_monthly |>
   kable(digits = 2)
 ```
 
-### Task 5 (2 points)
+### Task 8 (2 points)
 Based on the monthly pattern analysis, which months have the highest and lowest average accidents? Develop a hypothesis about why these seasonal patterns exist.
 
-ANSWER HERE
+The months with the highest averages are May and October. The months with the lowest are January and March. I'm thinking this is due to bad weather in January and March with rain and snow, while in May and October is better weather, and lots of activities outdoors and around the state to do.
 
 ## Identifying Extreme Outliers
 
@@ -311,12 +308,18 @@ if(nrow(extreme_outliers) > 0) {
 }
 ```
 
-### Task 6 (2 points)
+### Task 9 (2 points)
 For the extreme outliers identified (z-scores beyond ±3), what do they have in common?
 
-ANSWER HERE
+They are all on Friday or Saturday.
 
 ## Your Best Story Pitch
 
-### Task 7 (5 points)
+### Task 10 (5 points)
 Based on all the analyses performed, craft your best story pitch, including a headline and lede. Be sure to include what kinds of sources/people you'd talk to for the story.
+
+For my story, I'd write about what events, holidays and other circumstances affect the amount of car crashes during the months of May and October. I'd talk to local EMS personnel, the county police, and look at places with the most crashes during these times.
+
+Headline: Crashes are ramping up; here's what to know.
+
+Spring is starting to sprout, and warmer weather calls for more car crashes. 
