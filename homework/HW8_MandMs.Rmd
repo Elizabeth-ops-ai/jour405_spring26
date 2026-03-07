@@ -18,34 +18,19 @@ M_and_M <- read_csv("https://raw.githubusercontent.com/dwillis/jour405/refs/head
 
 ### Task 3: Sample 5 rows of data from the dataset
 ```{r}
-sampled_candy <- population |>
-  slice_sample(n = 1000)
-
-sampled_candy
+sample_candy <- M_and_M |> sample_n(5)
 ```
 
 
 ### Task 4: Calculate the mean age and standard deviation of the sample, using either the blue or white number of M&Ms
 ```{r}
-sample_stats <- sampled_candy |>
-  summarise(
-    mean_age = mean(age),
-    sd_age = sd(age)
-  )
-
-sample_stats
+sample_candy |> summarise(mean_black = mean(black), sd_black = sd(black))
 ```
 
 
 ### Task 5: Calculate the mean age and standard deviation of the population, using the same measure as in Task 4
 ```{r}
-candy_population_stats <- population |>
-  summarise(
-    mean_age = mean(age),
-    sd_age = sd(age)
-  )
-
-candy_population_stats
+M_and_M |> summarise(mean_black_population = mean(black), sd_black_population = sd(black))
 ```
 
 
@@ -53,12 +38,12 @@ candy_population_stats
 
 Compare the two sets of means and standard deviations. Are they similar?
 
-The two means and deviations are the exact same for me.
+The mean and sd for the black sample are a tad higher than the mean and sd for the total population. The standard deviaiton is more accurate to each other than the means.
 
 ### Task 7: Describe the results
 
 Write a few sentences about what you found in the data. What does this tell you about the M&Ms dataset and about the act of random sampling?
 
-The data was the exactly the same for the total population. I think this is because the sample size is really small. Only 5. This tells me that if there were a larger sample size, then it would represent the populaiton more.
+I found that my population of M&Ms were higher than the population's mean and standard deviation. This isn't really surprising, because it's just a random game of chance that I'd get the exact same data as the population. This tells me that random sampling won't usually be exact and accurate.
 
 When finished, save your work, switch to GitHub Desktop, then add, commit and push your changes to GitHub and submit the URL of the notebook in ELMS.
