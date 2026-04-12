@@ -1,0 +1,14 @@
+---
+title: "final_project"
+output: html_document
+---
+
+Here's a link to all the crime pages for each Big 10 university I found:
+"https://docs.google.com/document/d/18XJh4Ae4NbCxPv01ecx6DyTsmicGlgGASVVTIDo0FB8/edit?tab=t.0"
+
+Notes: Each university has different means of documenting public indecency/voyeurism. Some don't even identify it at all. This is def causing some trouble. 
+
+I could shift points, and look at instances of other forms of sexual assault, like rape, fondling, stalking or domestic violence. Clery Act lists all these crimes as sexual assault categories.
+
+Options: focus on one sexual assault categories, or focus on all sexual assault categories.
+
