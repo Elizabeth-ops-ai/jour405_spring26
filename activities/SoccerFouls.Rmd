@@ -48,6 +48,20 @@ matches |>
 
 
 ### Task 6: Describe the results of both the correlation calculation and the scatterplot.
+There's a really slight positive correlation with the goal diff and fouls. Overall, the distribution is pretty level though.
 
+### Task 7: Repeat with different variable.
+
+```{r}
+matches |> summarize(correlation = cor(corners, goal_diff, method="pearson"))
+```
+
+```{r}
+matches |> 
+  ggplot() +
+  geom_point(aes(x=goal_diff, y=corners)) +
+  geom_smooth(aes(x=goal_diff, y=corners), method="lm")
+```
+The correlation between goal diff and corners is far more positive than fouls. 
 
 When you are done, save your work, switch to GitHub Desktop, then add, commit and push your changes to GitHub and submit the URL of the notebook in ELMS.
