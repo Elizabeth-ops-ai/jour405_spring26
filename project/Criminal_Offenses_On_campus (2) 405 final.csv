@@ -1,0 +1,583 @@
+﻿Survey year,Unitid,Institution name,OPEID,Campus ID, Campus Name,Institution Size,Sex offenses - Forcible,Rape,Fondling,Sex offenses - Non-forcible,,Incest,Statutory rape
+2001,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,37963,10,,,0,,,
+2001,171100,Michigan State University,00229000,1,Main Campus,44227,20,,,0,,,
+2001,147767,Northwestern University,00173900,1,Main Campus,17000,2,,,1,,,
+2001,204796,Ohio State University-Main Campus,00309000,1,Main Campus,48477,3,,,0,,,
+2001,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,40828,8,,,0,,,
+2001,243780,Purdue University-Main Campus,00182500,1,Main Campus,39882,10,,,0,,,
+2001,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,35650,12,,,0,,,
+2001,110662,University of California-Los Angeles,00131500,1,UCLA,37494,11,,,0,,,
+2001,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,39291,14,,,0,,,
+2001,153658,University of Iowa,00189200,1,Main Campus,28768,6,,,0,,,
+2001,163286,University of Maryland-College Park,00210300,1,Main Campus,34160,7,,,0,,,
+2001,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,38248,10,,,0,,,
+2001,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,46597,14,,,0,,,
+2001,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,22764,0,,,0,,,
+2001,209551,University of Oregon,00322300,1,Main Campus,18956,2,,,0,,,
+2001,123961,University of Southern California,00132800,1,University Park Campus,29813,8,,,1,,,
+2001,123961,University of Southern California,00132800,2,Health Sciences Campus,29813,0,,,0,,,
+2001,123961,University of Southern California,00132800,3,Catalina Island,29813,0,,,0,,,
+2001,123961,University of Southern California,00132800,4,Orange County Center,29813,0,,,0,,,
+2001,123961,University of Southern California,00132800,5,Sacramento Center,29813,0,,,0,,,
+2001,123961,University of Southern California,00132800,6,Marina del Rey,29813,0,,,0,,,
+2001,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,37412,2,,,0,,,
+2001,240444,University of Wisconsin-Madison,00389500,1,Main Campus,40922,14,,,0,,,
+2002,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,38903,17,,,0,,,
+2002,171100,Michigan State University,00229000,1,Main Campus,44937,25,,,0,,,
+2002,147767,Northwestern University,00173900,1,Main Campus,17528,1,,,0,,,
+2002,204796,Ohio State University-Main Campus,00309000,1,Main Campus,49676,7,,,0,,,
+2002,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,41445,12,,,0,,,
+2002,243780,Purdue University-Main Campus,00182500,1,Main Campus,40117,13,,,0,,,
+2002,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,35886,11,,,0,,,
+2002,110662,University of California-Los Angeles,00131500,1,UCLA,37599,16,,,0,,,
+2002,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,39999,9,,,0,,,
+2002,153658,University of Iowa,00189200,1,Main Campus,29697,4,,,0,,,
+2002,163286,University of Maryland-College Park,00210300,1,Main Campus,34801,14,,,1,,,
+2002,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,38972,23,,,0,,,
+2002,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,48677,10,,,0,,,
+2002,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,22988,0,,,0,,,
+2002,209551,University of Oregon,00322300,1,Main Campus,19997,8,,,0,,,
+2002,123961,University of Southern California,00132800,1,University Park Campus,30682,12,,,0,,,
+2002,123961,University of Southern California,00132800,2,Health Sciences Campus,30682,0,,,0,,,
+2002,123961,University of Southern California,00132800,3,Catalina Island,30682,0,,,0,,,
+2002,123961,University of Southern California,00132800,4,Orange County Center,30682,0,,,0,,,
+2002,123961,University of Southern California,00132800,5,Sacramento Center,30682,0,,,0,,,
+2002,123961,University of Southern California,00132800,6,Marina del Rey,30682,0,,,0,,,
+2002,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,39882,0,,,0,,,
+2002,240444,University of Wisconsin-Madison,00389500,1,Main Campus,40884,14,,,1,,,
+2003,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,38589,6,,,0,,,
+2003,171100,Michigan State University,00229000,1,Main Campus,44542,14,,,0,,,
+2003,147767,Northwestern University,00173900,1,Main Campus,17625,4,,,0,,,
+2003,204796,Ohio State University-Main Campus,00309000,1,Main Campus,50731,9,,,0,,,
+2003,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,41795,9,,,0,,,
+2003,243780,Purdue University-Main Campus,00182500,1,Main Campus,40376,6,,,0,,,
+2003,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,35318,11,,,0,,,
+2003,110662,University of California-Los Angeles,00131500,1,UCLA,37055,12,,,0,,,
+2003,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,40458,12,,,0,,,
+2003,153658,University of Iowa,00189200,1,Main Campus,29745,8,,,0,,,
+2003,163286,University of Maryland-College Park,00210300,1,Main Campus,35329,11,,,0,,,
+2003,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,39031,22,,,0,,,
+2003,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,49474,16,,,0,,,
+2003,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,22559,1,,,0,,,
+2003,209551,University of Oregon,00322300,1,Main Campus,19992,6,,,0,,,
+2003,123961,University of Southern California,00132800,1,University Park Campus,31606,12,,,0,,,
+2003,123961,University of Southern California,00132800,2,Health Sciences Campus,31606,1,,,0,,,
+2003,123961,University of Southern California,00132800,3,Catalina Island,31606,0,,,0,,,
+2003,123961,University of Southern California,00132800,4,Orange County Center,31606,0,,,0,,,
+2003,123961,University of Southern California,00132800,5,Sacramento Center,31606,0,,,0,,,
+2003,123961,University of Southern California,00132800,6,Marina del Rey,31606,0,,,0,,,
+2003,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,39135,1,,,0,,,
+2003,240444,University of Wisconsin-Madison,00389500,1,Main Campus,40879,13,,,2,,,
+2004,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,37821,3,,,0,,,
+2004,171100,Michigan State University,00229000,1,Main Campus,44836,29,,,0,,,
+2004,147767,Northwestern University,00173900,1,Main Campus,17747,1,,,0,,,
+2004,204796,Ohio State University-Main Campus,00309000,1,Main Campus,50995,18,,,0,,,
+2004,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,41289,8,,,0,,,
+2004,243780,Purdue University-Main Campus,00182500,1,Main Campus,40108,5,,,0,,,
+2004,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,34696,18,,,0,,,
+2004,110662,University of California-Los Angeles,00131500,1,UCLA,35966,8,,,0,,,
+2004,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,40687,10,,,0,,,
+2004,153658,University of Iowa,00189200,1,Main Campus,28442,8,,,0,,,
+2004,163286,University of Maryland-College Park,00210300,1,Main Campus,34933,9,,,0,,,
+2004,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,39533,25,,,0,,,
+2004,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,50954,10,,,0,,,
+2004,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,21792,0,,,0,,,
+2004,209551,University of Oregon,00322300,1,Main Campus,20296,2,,,0,,,
+2004,123961,University of Southern California,00132800,1,University Park Campus,32160,14,,,0,,,
+2004,123961,University of Southern California,00132800,2,Health Sciences Campus,32160,1,,,0,,,
+2004,123961,University of Southern California,00132800,3,Catalina Island,32160,0,,,0,,,
+2004,123961,University of Southern California,00132800,4,Orange County Center,32160,0,,,0,,,
+2004,123961,University of Southern California,00132800,5,Sacramento Center,32160,0,,,0,,,
+2004,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,39199,1,,,0,,,
+2004,240444,University of Wisconsin-Madison,00389500,1,Main Campus,40455,14,,,0,,,
+2005,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,37958,15,,,0,,,
+2005,171100,Michigan State University,00229000,1,Main Campus,45166,14,,,0,,,
+2005,147767,Northwestern University,00173900,1,Main Campus,18065,1,,,0,,,
+2005,204796,Ohio State University-Main Campus,00309000,1,Main Campus,50504,29,,,0,,,
+2005,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,40709,9,,,0,,,
+2005,243780,Purdue University-Main Campus,00182500,1,Main Campus,40151,4,,,0,,,
+2005,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,34449,15,,,0,,,
+2005,110662,University of California-Los Angeles,00131500,1,UCLA,35625,4,,,0,,,
+2005,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,41938,8,,,0,,,
+2005,153658,University of Iowa,00189200,1,Main Campus,28426,3,,,0,,,
+2005,163286,University of Maryland-College Park,00210300,1,Main Campus,35369,27,,,0,,,
+2005,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,39993,24,,,0,,,
+2005,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,51175,11,,,0,,,
+2005,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,21675,1,,,0,,,
+2005,209551,University of Oregon,00322300,1,Main Campus,20347,8,,,0,,,
+2005,123961,University of Southern California,00132800,1,University Park Campus,32836,13,,,0,,,
+2005,123961,University of Southern California,00132800,2,Health Sciences Campus,32836,0,,,0,,,
+2005,123961,University of Southern California,00132800,3,Catalina Island,32836,0,,,0,,,
+2005,123961,University of Southern California,00132800,4,Orange County Center,32836,0,,,0,,,
+2005,123961,University of Southern California,00132800,5,Sacramento Center,32836,0,,,0,,,
+2005,123961,University of Southern California,00132800,6,Marina del Rey,32836,0,,,0,,,
+2005,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,39251,6,,,0,,,
+2005,240444,University of Wisconsin-Madison,00389500,1,Main Campus,40793,14,,,0,,,
+2006,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,38247,9,,,0,,,
+2006,171100,Michigan State University,00229000,1,Main Campus,45520,14,,,0,,,
+2006,147767,Northwestern University,00173900,1,Main Campus,18486,2,,,0,,,
+2006,204796,Ohio State University-Main Campus,00309000,1,Main Campus,51818,53,,,0,,,
+2006,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,42914,6,,,0,,,
+2006,243780,Purdue University-Main Campus,00182500,1,Main Campus,40609,4,,,0,,,
+2006,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,34392,9,,,0,,,
+2006,110662,University of California-Los Angeles,00131500,1,UCLA,36611,9,,,0,,,
+2006,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,42738,6,,,0,,,
+2006,153658,University of Iowa,00189200,1,Main Campus,28816,6,,,0,,,
+2006,163286,University of Maryland-College Park,00210300,1,Main Campus,35102,31,,,0,,,
+2006,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,40025,11,,,0,,,
+2006,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,50402,13,,,0,,,
+2006,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,22106,1,,,0,,,
+2006,209551,University of Oregon,00322300,1,Main Campus,20348,4,,,0,,,
+2006,123961,University of Southern California,00132800,1,University Park Campus,33389,16,,,0,,,
+2006,123961,University of Southern California,00132800,2,Health Sciences Campus,33389,0,,,0,,,
+2006,123961,University of Southern California,00132800,3,Catalina Island,33389,0,,,0,,,
+2006,123961,University of Southern California,00132800,4,Orange County Center,33389,0,,,0,,,
+2006,123961,University of Southern California,00132800,5,Sacramento Center,33389,0,,,0,,,
+2006,123961,University of Southern California,00132800,6,Marina del Rey,33389,0,,,0,,,
+2006,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,39524,2,,,0,,,
+2006,240444,University of Wisconsin-Madison,00389500,1,Main Campus,41028,8,,,1,,,
+2007,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,38990,8,,,0,,,
+2007,171100,Michigan State University,00229000,1,Main Campus,46045,18,,,0,,,
+2007,147767,Northwestern University,00173900,1,Main Campus,19005,5,,,0,,,
+2007,204796,Ohio State University-Main Campus,00309000,1,Main Campus,52568,65,,,1,,,
+2007,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,43252,8,,,0,,,
+2007,243780,Purdue University-Main Campus,00182500,1,Main Campus,40534,9,,,0,,,
+2007,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,34804,4,,,0,,,
+2007,110662,University of California-Los Angeles,00131500,1,UCLA,37476,13,,,0,,,
+2007,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,42326,9,,,0,,,
+2007,153658,University of Iowa,00189200,1,Main Campus,29117,6,,,0,,,
+2007,163286,University of Maryland-College Park,00210300,1,Main Campus,36014,16,,,0,,,
+2007,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,41042,52,,,0,,,
+2007,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,50883,12,,,0,,,
+2007,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,22973,0,,,0,,,
+2007,209551,University of Oregon,00322300,1,Main Campus,20332,3,,,0,,,
+2007,123961,University of Southern California,00132800,1,University Park Campus,33408,0,,,0,,,
+2007,123961,University of Southern California,00132800,2,Health Sciences Campus,33408,0,,,0,,,
+2007,123961,University of Southern California,00132800,3,Catalina Island,33408,0,,,0,,,
+2007,123961,University of Southern California,00132800,4,Orange County Center,33408,0,,,0,,,
+2007,123961,University of Southern California,00132800,5,Sacramento Center,33408,0,,,0,,,
+2007,123961,University of Southern California,00132800,6,Marina del Rey,33408,0,,,0,,,
+2007,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,40218,0,,,0,,,
+2007,240444,University of Wisconsin-Madison,00389500,1,Main Campus,41563,7,,,1,,,
+2008,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,40354,5,,,0,,,
+2008,171100,Michigan State University,00229000,1,Main Campus,46510,8,,,0,,,
+2008,147767,Northwestern University,00173900,1,Main Campus,19291,5,,,0,,,
+2008,204796,Ohio State University-Main Campus,00309000,1,Main Campus,53715,32,,,0,,,
+2008,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,44406,9,,,0,,,
+2008,243780,Purdue University-Main Campus,00182500,1,Main Campus,41433,1,,,0,,,
+2008,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,36041,4,,,0,,,
+2008,110662,University of California-Los Angeles,00131500,1,UCLA,38220,31,,,0,,,
+2008,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,43246,7,,,0,,,
+2008,153658,University of Iowa,00189200,1,Main Campus,29152,4,,,0,,,
+2008,163286,University of Maryland-College Park,00210300,1,Main Campus,37000,15,,,0,,,
+2008,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,41028,45,,,0,,,
+2008,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,51140,11,,,0,,,
+2008,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,23573,0,,,0,,,
+2008,209551,University of Oregon,00322300,1,Main Campus,21452,8,,,0,,,
+2008,123961,University of Southern California,00132800,1,University Park Campus,33747,6,,,0,,,
+2008,123961,University of Southern California,00132800,2,Health Sciences Campus,33747,0,,,0,,,
+2008,123961,University of Southern California,00132800,3,Catalina Island,33747,0,,,0,,,
+2008,123961,University of Southern California,00132800,4,Orange County Center,33747,0,,,0,,,
+2008,123961,University of Southern California,00132800,5,Sacramento Center,33747,0,,,0,,,
+2008,123961,University of Southern California,00132800,6,Marina del Rey,33747,0,,,0,,,
+2008,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,39675,2,,,0,,,
+2008,240444,University of Wisconsin-Madison,00389500,1,Main Campus,41620,5,,,0,,,
+2009,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,42347,21,,,0,,,
+2009,171100,Michigan State University,00229000,1,Main Campus,47071,16,,,0,,,
+2009,147767,Northwestern University,00173900,1,Main Campus,19853,5,,,0,,,
+2009,204796,Ohio State University-Main Campus,00309000,1,Main Campus,55014,20,,,0,,,
+2009,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,45185,8,,,0,,,
+2009,243780,Purdue University-Main Campus,00182500,1,Main Campus,41052,7,,,0,,,
+2009,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,37366,13,,,0,,,
+2009,110662,University of California-Los Angeles,00131500,1,UCLA,38550,11,,,0,,,
+2009,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,43881,5,,,0,,,
+2009,153658,University of Iowa,00189200,1,Main Campus,28987,9,,,1,,,
+2009,163286,University of Maryland-College Park,00210300,1,Main Campus,37195,4,,,0,,,
+2009,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,41674,11,,,0,,,
+2009,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,51659,13,,,0,,,
+2009,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,24100,1,,,0,,,
+2009,209551,University of Oregon,00322300,1,Main Campus,22335,6,,,0,,,
+2009,123961,University of Southern California,00132800,1,University Park Campus,34824,9,,,0,,,
+2009,123961,University of Southern California,00132800,2,Health Sciences Campus,34824,0,,,0,,,
+2009,123961,University of Southern California,00132800,3,Catalina Island,34824,1,,,0,,,
+2009,123961,University of Southern California,00132800,4,Orange County Center,34824,0,,,0,,,
+2009,123961,University of Southern California,00132800,5,Sacramento Center,34824,0,,,0,,,
+2009,123961,University of Southern California,00132800,6,Marina del Rey,34824,0,,,0,,,
+2009,123961,University of Southern California,00132800,7,Health Science Alhambra Building,34824,0,,,0,,,
+2009,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,34824,0,,,0,,,
+2009,123961,University of Southern California,00132800,9,Aviation Safety & Security,34824,0,,,0,,,
+2009,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,45943,0,,,0,,,
+2009,240444,University of Wisconsin-Madison,00389500,1,Main Campus,41654,4,,,2,,,
+2010,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,42464,16,,,1,,,
+2010,171100,Michigan State University,00229000,1,Main Campus,46985,14,,,0,,,
+2010,147767,Northwestern University,00173900,1,Main Campus,20481,3,,,0,,,
+2010,204796,Ohio State University-Main Campus,00309000,1,Main Campus,56064,12,,,0,,,
+2010,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,45233,4,,,0,,,
+2010,243780,Purdue University-Main Campus,00182500,1,Main Campus,41063,5,,,0,,,
+2010,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,38912,11,,,0,,,
+2010,110662,University of California-Los Angeles,00131500,1,UCLA,38157,21,,,1,,,
+2010,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,43862,7,,,0,,,
+2010,153658,University of Iowa,00189200,1,Main Campus,29518,6,,,0,,,
+2010,163286,University of Maryland-College Park,00210300,1,Main Campus,37641,9,,,0,,,
+2010,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,41924,16,,,0,,,
+2010,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,51721,12,,,0,,,
+2010,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,24610,2,,,0,,,
+2010,209551,University of Oregon,00322300,1,Main Campus,23342,7,,,0,,,
+2010,123961,University of Southern California,00132800,1,University Park Campus,36896,5,,,0,,,
+2010,123961,University of Southern California,00132800,2,Health Sciences Campus,36896,0,,,0,,,
+2010,123961,University of Southern California,00132800,3,Catalina Island,36896,0,,,0,,,
+2010,123961,University of Southern California,00132800,4,Orange County Center,36896,0,,,0,,,
+2010,123961,University of Southern California,00132800,5,Sacramento Center,36896,0,,,0,,,
+2010,123961,University of Southern California,00132800,6,Marina del Rey,36896,0,,,0,,,
+2010,123961,University of Southern California,00132800,7,Health Science Alhambra Building,36896,0,,,0,,,
+2010,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,36896,0,,,0,,,
+2010,123961,University of Southern California,00132800,9,Aviation Safety & Security,36896,0,,,0,,,
+2010,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,42451,4,,,0,,,
+2010,240444,University of Wisconsin-Madison,00389500,1,Main Campus,42180,9,,,0,,,
+2011,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,42731,11,,,0,,,
+2011,171100,Michigan State University,00229000,1,Main Campus,47825,15,,,0,,,
+2011,147767,Northwestern University,00173900,1,Main Campus,20959,3,,,0,,,
+2011,204796,Ohio State University-Main Campus,00309000,1,Main Campus,56867,28,,,0,,,
+2011,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,45628,24,,,0,,,
+2011,243780,Purdue University-Main Campus,00182500,1,Main Campus,40849,3,,,0,,,
+2011,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,39950,12,,,0,,,
+2011,110662,University of California-Los Angeles,00131500,1,UCLA,39271,8,,,0,,,
+2011,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,44407,5,,,0,,,
+2011,153658,University of Iowa,00189200,1,Main Campus,29810,10,,,0,,,
+2011,163286,University of Maryland-College Park,00210300,1,Main Campus,37631,4,,,0,,,
+2011,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,42716,14,,,0,,,
+2011,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,52557,12,,,0,,,
+2011,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,24593,3,,,0,,,
+2011,209551,University of Oregon,00322300,1,Main Campus,24396,8,,,0,,,
+2011,123961,University of Southern California,00132800,1,University Park Campus,38010,14,,,0,,,
+2011,123961,University of Southern California,00132800,2,Health Sciences Campus,38010,1,,,0,,,
+2011,123961,University of Southern California,00132800,3,Catalina Island,38010,0,,,0,,,
+2011,123961,University of Southern California,00132800,4,Orange County Center,38010,0,,,0,,,
+2011,123961,University of Southern California,00132800,5,Sacramento Center,38010,0,,,0,,,
+2011,123961,University of Southern California,00132800,6,Marina del Rey,38010,0,,,0,,,
+2011,123961,University of Southern California,00132800,7,Health Science Alhambra Building,38010,0,,,0,,,
+2011,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,38010,0,,,0,,,
+2011,123961,University of Southern California,00132800,9,Aviation Safety & Security,38010,0,,,0,,,
+2011,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,42444,5,,,0,,,
+2011,240444,University of Wisconsin-Madison,00389500,1,Main Campus,41946,24,,,0,,,
+2012,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,42133,27,,,0,,,
+2012,171100,Michigan State University,00229000,1,Main Campus,48783,20,,,0,,,
+2012,147767,Northwestern University,00173900,1,Main Campus,21215,2,,,0,,,
+2012,204796,Ohio State University-Main Campus,00309000,1,Main Campus,56387,21,,,0,,,
+2012,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,45783,56,,,0,,,
+2012,243780,Purdue University-Main Campus,00182500,1,Main Campus,40393,2,,,0,,,
+2012,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,40434,16,,,0,,,
+2012,110662,University of California-Los Angeles,00131500,1,UCLA,39945,15,,,0,,,
+2012,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,44520,10,,,0,,,
+2012,153658,University of Iowa,00189200,1,Main Campus,30129,15,,,0,,,
+2012,163286,University of Maryland-College Park,00210300,1,Main Campus,37248,9,,,0,,,
+2012,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,43426,34,,,0,,,
+2012,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,51853,14,,,0,,,
+2012,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,24207,3,,,0,,,
+2012,209551,University of Oregon,00322300,1,Main Campus,24518,17,,,0,,,
+2012,123961,University of Southern California,00132800,1,University Park Campus,39958,15,,,0,,,
+2012,123961,University of Southern California,00132800,2,Health Sciences Campus,39958,0,,,0,,,
+2012,123961,University of Southern California,00132800,3,Catalina Island,39958,0,,,0,,,
+2012,123961,University of Southern California,00132800,4,Orange County Center,39958,0,,,0,,,
+2012,123961,University of Southern California,00132800,5,Sacramento Center,39958,0,,,0,,,
+2012,123961,University of Southern California,00132800,6,Marina del Rey,39958,0,,,0,,,
+2012,123961,University of Southern California,00132800,7,Health Science Alhambra Building,39958,0,,,0,,,
+2012,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,39958,0,,,0,,,
+2012,123961,University of Southern California,00132800,9,Aviation Safety & Security,39958,0,,,0,,,
+2012,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,43485,2,,,0,,,
+2012,240444,University of Wisconsin-Madison,00389500,1,Main Campus,42269,15,,,0,,,
+2013,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,46817,15,,,0,,,
+2013,171100,Michigan State University,00229000,1,Main Campus,49317,27,,,0,,,
+2013,147767,Northwestern University,00173900,1,Main Campus,21592,7,,,0,,,
+2013,204796,Ohio State University-Main Campus,00309000,1,Main Campus,57466,24,,,0,,,
+2013,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,46615,17,,,0,,,
+2013,243780,Purdue University-Main Campus,00182500,1,Main Campus,39794,5,,,0,,,
+2013,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,48036,21,,,0,,,
+2013,110662,University of California-Los Angeles,00131500,1,UCLA,40795,34,,,0,,,
+2013,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,44942,12,,,0,,,
+2013,153658,University of Iowa,00189200,1,Main Campus,29748,9,,,0,,,
+2013,163286,University of Maryland-College Park,00210300,1,Main Campus,37272,19,,,0,,,
+2013,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,43710,21,,,0,,,
+2013,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,51526,8,,,0,,,
+2013,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,24445,4,,,0,,,
+2013,209551,University of Oregon,00322300,1,Main Campus,24473,12,,,0,,,
+2013,123961,University of Southern California,00132800,1,University Park Campus,41368,8,,,0,,,
+2013,123961,University of Southern California,00132800,2,Health Sciences Campus,41368,1,,,0,,,
+2013,123961,University of Southern California,00132800,3,Catalina Island,41368,0,,,0,,,
+2013,123961,University of Southern California,00132800,4,Orange County Center,41368,0,,,0,,,
+2013,123961,University of Southern California,00132800,5,Sacramento Center,41368,0,,,0,,,
+2013,123961,University of Southern California,00132800,6,Marina del Rey,41368,0,,,0,,,
+2013,123961,University of Southern California,00132800,7,Health Science Alhambra Building,41368,0,,,0,,,
+2013,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,41368,0,,,0,,,
+2013,123961,University of Southern California,00132800,9,Aviation Safety & Security,41368,0,,,0,,,
+2013,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,43762,2,,,0,,,
+2013,240444,University of Wisconsin-Madison,00389500,1,Main Campus,42677,29,,,1,,,
+2014,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,46416,,13,6,,,0,0
+2014,171100,Michigan State University,00229000,1,Main Campus,50081,,13,8,,,0,0
+2014,147767,Northwestern University,00173900,1,Main Campus,21554,,3,3,,,0,0
+2014,204796,Ohio State University-Main Campus,00309000,1,Main Campus,58322,,20,12,,,0,1
+2014,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,47040,,15,11,,,0,0
+2014,243780,Purdue University-Main Campus,00182500,1,Main Campus,39752,,7,9,,,0,0
+2014,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,48378,,32,9,,,0,0
+2014,110662,University of California-Los Angeles,00131500,1,UCLA,41845,,17,9,,,0,0
+2014,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,45140,,9,2,,,0,0
+2014,153658,University of Iowa,00189200,1,Main Campus,29970,,13,58,,,0,0
+2014,163286,University of Maryland-College Park,00210300,1,Main Campus,37610,,10,9,,,0,0
+2014,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,43625,,14,11,,,0,0
+2014,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,51147,,7,5,,,0,0
+2014,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,25006,,8,2,,,0,0
+2014,209551,University of Oregon,00322300,1,Main Campus,24096,,6,5,,,0,0
+2014,123961,University of Southern California,00132800,1,University Park Campus,42453,,7,6,,,0,0
+2014,123961,University of Southern California,00132800,2,Health Sciences Campus,42453,,1,1,,,0,0
+2014,123961,University of Southern California,00132800,3,Catalina Island,42453,,0,0,,,0,0
+2014,123961,University of Southern California,00132800,4,Orange County Center,42453,,0,0,,,0,0
+2014,123961,University of Southern California,00132800,5,Sacramento Center,42453,,0,0,,,0,0
+2014,123961,University of Southern California,00132800,6,Marina del Rey,42453,,0,0,,,0,0
+2014,123961,University of Southern California,00132800,7,Health Science Alhambra Building,42453,,0,0,,,0,0
+2014,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,42453,,0,0,,,0,0
+2014,123961,University of Southern California,00132800,9,Aviation Safety & Security,42453,,0,0,,,0,0
+2014,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,44784,,8,2,,,0,0
+2014,240444,University of Wisconsin-Madison,00389500,1,Main Campus,42598,,17,9,,,0,0
+2015,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,48514,,29,14,,,0,2
+2015,171100,Michigan State University,00229000,1,Main Campus,50538,,15,5,,,0,0
+2015,147767,Northwestern University,00173900,1,Main Campus,21655,,8,2,,,0,0
+2015,204796,Ohio State University-Main Campus,00309000,1,Main Campus,58663,,25,13,,,0,0
+2015,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,47307,,31,9,,,0,0
+2015,243780,Purdue University-Main Campus,00182500,1,Main Campus,40472,,12,7,,,0,0
+2015,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,49428,,26,14,,,0,1
+2015,110662,University of California-Los Angeles,00131500,1,UCLA,41908,,6,10,,,0,2
+2015,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,45842,,8,0,,,0,0
+2015,153658,University of Iowa,00189200,1,Main Campus,30844,,17,106,,,0,0
+2015,163286,University of Maryland-College Park,00210300,1,Main Campus,38140,,15,14,,,0,0
+2015,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,43651,,18,15,,,0,0
+2015,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,50678,,4,5,,,0,0
+2015,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,25260,,10,3,,,0,0
+2015,209551,University of Oregon,00322300,1,Main Campus,24032,,7,10,,,0,1
+2015,123961,University of Southern California,00132800,1,University Park Campus,43401,,5,11,,,0,2
+2015,123961,University of Southern California,00132800,2,Health Sciences Campus,43401,,0,2,,,0,2
+2015,123961,University of Southern California,00132800,3,Catalina Island,43401,,0,0,,,0,0
+2015,123961,University of Southern California,00132800,4,Orange County Center,43401,,0,0,,,0,0
+2015,123961,University of Southern California,00132800,5,Sacramento Center,43401,,0,0,,,0,0
+2015,123961,University of Southern California,00132800,6,Marina del Rey,43401,,0,0,,,0,0
+2015,123961,University of Southern California,00132800,7,Health Science Alhambra Building,43401,,0,0,,,0,0
+2015,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,43401,,0,0,,,0,0
+2015,123961,University of Southern California,00132800,9,Aviation Safety & Security,43401,,0,0,,,0,0
+2015,123961,University of Southern California,00132800,12,France,43401,,0,0,,,0,0
+2015,123961,University of Southern California,00132800,13,Greece,43401,,0,0,,,0,0
+2015,123961,University of Southern California,00132800,14,United Kingdom,43401,,0,0,,,0,0
+2015,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,45408,,12,3,,,0,0
+2015,240444,University of Wisconsin-Madison,00389500,1,Main Campus,42716,,9,11,,,0,0
+2016,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,49695,,15,9,,,0,0
+2016,171100,Michigan State University,00229000,1,Main Campus,50340,,17,6,,,0,0
+2016,147767,Northwestern University,00173900,1,Main Campus,21823,,13,1,,,0,0
+2016,204796,Ohio State University-Main Campus,00309000,1,Main Campus,59482,,57,22,,,0,0
+2016,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,47789,,35,16,,,0,0
+2016,243780,Purdue University-Main Campus,00182500,1,Main Campus,41513,,18,12,,,0,0
+2016,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,50146,,23,8,,,0,0
+2016,110662,University of California-Los Angeles,00131500,1,UCLA,43548,,15,9,,,0,0
+2016,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,46951,,17,4,,,0,0
+2016,153658,University of Iowa,00189200,1,Main Campus,32011,,20,20,,,0,0
+2016,163286,University of Maryland-College Park,00210300,1,Main Campus,39083,,5,11,,,0,0
+2016,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,44718,,13,13,,,0,0
+2016,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,51579,,10,8,,,0,0
+2016,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,25897,,12,11,,,0,0
+2016,209551,University of Oregon,00322300,1,Main Campus,23546,,16,7,,,0,0
+2016,123961,University of Southern California,00132800,1,University Park Campus,43871,,10,7,,,0,0
+2016,123961,University of Southern California,00132800,2,Health Sciences Campus,43871,,1,3,,,0,0
+2016,123961,University of Southern California,00132800,3,Catalina Island,43871,,0,0,,,0,0
+2016,123961,University of Southern California,00132800,4,Orange County Center,43871,,0,0,,,0,0
+2016,123961,University of Southern California,00132800,5,Sacramento Center,43871,,0,0,,,0,0
+2016,123961,University of Southern California,00132800,6,Marina del Rey,43871,,0,0,,,0,0
+2016,123961,University of Southern California,00132800,7,Health Science Alhambra Building,43871,,0,0,,,0,0
+2016,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,43871,,0,0,,,0,0
+2016,123961,University of Southern California,00132800,9,Aviation Safety & Security,43871,,0,0,,,0,0
+2016,123961,University of Southern California,00132800,12,France,43871,,0,0,,,0,0
+2016,123961,University of Southern California,00132800,13,Greece,43871,,0,0,,,0,0
+2016,123961,University of Southern California,00132800,14,United Kingdom,43871,,0,0,,,0,0
+2016,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,45591,,3,10,,,0,0
+2016,240444,University of Wisconsin-Madison,00389500,1,Main Campus,42582,,7,28,,,0,0
+2017,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,43710,,20,6,,,0,0
+2017,171100,Michigan State University,00229000,1,Main Campus,50019,,26,14,,,0,0
+2017,147767,Northwestern University,00173900,1,Main Campus,22008,,9,4,,,0,0
+2017,204796,Ohio State University-Main Campus,00309000,1,Main Campus,59837,,72,30,,,0,0
+2017,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,47119,,37,20,,,0,0
+2017,243780,Purdue University-Main Campus,00182500,1,Main Campus,42699,,18,15,,,0,0
+2017,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,49577,,30,8,,,0,0
+2017,110662,University of California-Los Angeles,00131500,1,UCLA,44027,,19,21,,,0,1
+2017,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,48216,,35,14,,,0,0
+2017,153658,University of Iowa,00189200,1,Main Campus,32166,,24,51,,,0,0
+2017,163286,University of Maryland-College Park,00210300,1,Main Campus,40521,,29,4,,,0,0
+2017,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,46002,,15,10,,,0,0
+2017,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,51848,,19,15,,,0,0
+2017,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,26079,,116,107,,,0,0
+2017,209551,University of Oregon,00322300,1,Main Campus,22887,,15,15,,,0,1
+2017,123961,University of Southern California,00132800,1,University Park Campus,45687,,9,5,,,0,0
+2017,123961,University of Southern California,00132800,2,Health Sciences Campus,45687,,1,3,,,0,0
+2017,123961,University of Southern California,00132800,3,Catalina Island,45687,,0,0,,,0,0
+2017,123961,University of Southern California,00132800,4,Orange County Center,45687,,0,0,,,0,0
+2017,123961,University of Southern California,00132800,5,Sacramento Center,45687,,0,0,,,0,0
+2017,123961,University of Southern California,00132800,6,Marina del Rey,45687,,0,0,,,0,0
+2017,123961,University of Southern California,00132800,7,Health Science Alhambra Building,45687,,0,0,,,0,0
+2017,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,45687,,0,0,,,0,0
+2017,123961,University of Southern California,00132800,9,Aviation Safety & Security,45687,,0,0,,,0,0
+2017,123961,University of Southern California,00132800,12,France,45687,,0,0,,,0,0
+2017,123961,University of Southern California,00132800,13,Greece,45687,,0,0,,,0,0
+2017,123961,University of Southern California,00132800,14,United Kingdom,45687,,0,0,,,0,0
+2017,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,46166,,14,3,,,0,0
+2017,240444,University of Wisconsin-Madison,00389500,1,Main Campus,42977,,13,11,,,0,0
+2018,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,43503,,13,10,,,0,0
+2018,171100,Michigan State University,00229000,1,Main Campus,50351,,43,16,,,0,0
+2018,147767,Northwestern University,00173900,1,Main Campus,22127,,8,3,,,0,0
+2018,204796,Ohio State University-Main Campus,00309000,1,Main Campus,61170,,123,1040,,,0,0
+2018,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,46810,,49,27,,,0,1
+2018,243780,Purdue University-Main Campus,00182500,1,Main Campus,44474,,16,14,,,0,0
+2018,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,50254,,15,6,,,0,0
+2018,110662,University of California-Los Angeles,00131500,1,UCLA,44537,,36,20,,,0,1
+2018,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,49702,,30,17,,,0,0
+2018,153658,University of Iowa,00189200,1,Main Campus,31656,,31,41,,,0,0
+2018,163286,University of Maryland-College Park,00210300,1,Main Campus,41200,,28,15,,,0,0
+2018,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,46716,,43,30,,,0,0
+2018,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,50734,,26,22,,,0,0
+2018,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,25820,,16,8,,,0,0
+2018,209551,University of Oregon,00322300,1,Main Campus,22644,,8,13,,,0,0
+2018,123961,University of Southern California,00132800,1,University Park Campus,47310,,110,28,,,0,1
+2018,123961,University of Southern California,00132800,2,Health Sciences Campus,47310,,4,0,,,0,0
+2018,123961,University of Southern California,00132800,3,Catalina Island,47310,,0,0,,,0,0
+2018,123961,University of Southern California,00132800,4,Orange County Center,47310,,0,0,,,0,0
+2018,123961,University of Southern California,00132800,5,Sacramento Center,47310,,0,0,,,0,0
+2018,123961,University of Southern California,00132800,6,Marina del Rey,47310,,0,0,,,0,0
+2018,123961,University of Southern California,00132800,7,Health Science Alhambra Building,47310,,0,0,,,0,0
+2018,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,47310,,0,0,,,0,0
+2018,123961,University of Southern California,00132800,9,Aviation Safety & Security,47310,,0,0,,,0,0
+2018,123961,University of Southern California,00132800,12,France,47310,,0,0,,,0,0
+2018,123961,University of Southern California,00132800,13,Greece,47310,,0,0,,,0,0
+2018,123961,University of Southern California,00132800,14,United Kingdom,47310,,0,0,,,0,0
+2018,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,47400,,34,16,,,0,0
+2018,240444,University of Wisconsin-Madison,00389500,1,Main Campus,43463,,13,13,,,0,0
+2019,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,43260,,19,5,,,0,0
+2019,171100,Michigan State University,00229000,1,Main Campus,49809,,29,82,,,0,0
+2019,147767,Northwestern University,00173900,1,Main Campus,22448,,7,3,,,0,0
+2019,204796,Ohio State University-Main Campus,00309000,1,Main Campus,61391,,215,1251,,,0,0
+2019,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,91427,,41,24,,,0,0
+2019,243780,Purdue University-Main Campus,00182500,1,Main Campus,45500,,17,5,,,0,0
+2019,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,50173,,25,12,,,0,0
+2019,110662,University of California-Los Angeles,00131500,1,UCLA,44371,,18,59,,,0,0
+2019,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,51605,,19,9,,,0,2
+2019,153658,University of Iowa,00189200,1,Main Campus,31240,,27,22,,,0,0
+2019,163286,University of Maryland-College Park,00210300,1,Main Campus,40743,,23,7,,,0,0
+2019,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,48090,,19,25,,,0,0
+2019,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,51327,,27,23,,,0,0
+2019,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,25390,,13,1,,,0,0
+2019,209551,University of Oregon,00322300,1,Main Campus,22517,,4,12,,,0,0
+2019,123961,University of Southern California,00132800,1,University Park Campus,48321,,29,30,,,0,0
+2019,123961,University of Southern California,00132800,2,Health Sciences Campus,48321,,9,2,,,0,0
+2019,123961,University of Southern California,00132800,3,Catalina Island,48321,,0,0,,,0,0
+2019,123961,University of Southern California,00132800,4,Orange County Center,48321,,0,0,,,0,0
+2019,123961,University of Southern California,00132800,5,Sacramento Center,48321,,0,0,,,0,0
+2019,123961,University of Southern California,00132800,6,Marina del Rey,48321,,0,0,,,0,0
+2019,123961,University of Southern California,00132800,7,Health Science Alhambra Building,48321,,0,0,,,0,0
+2019,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,48321,,0,0,,,0,0
+2019,123961,University of Southern California,00132800,9,Aviation Safety & Security,48321,,0,0,,,0,0
+2019,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,47576,,17,15,,,0,0
+2019,240444,University of Wisconsin-Madison,00389500,1,Main Campus,44257,,11,9,,,0,0
+2020,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,43064,,22,7,,,0,0
+2020,171100,Michigan State University,00229000,1,Main Campus,49695,,13,3,,,0,1
+2020,147767,Northwestern University,00173900,1,Main Campus,22603,,2,2,,,0,0
+2020,204796,Ohio State University-Main Campus,00309000,1,Main Campus,61369,,179,530,,,0,0
+2020,243780,Purdue University-Main Campus,00182500,1,Main Campus,46655,,7,1,,,0,0
+2020,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,50411,,4,8,,,0,0
+2020,110662,University of California-Los Angeles,00131500,1,UCLA,44589,,28,27,,,0,0
+2020,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,52679,,15,5,,,0,0
+2020,153658,University of Iowa,00189200,1,Main Campus,30318,,25,21,,,0,0
+2020,163286,University of Maryland-College Park,00210300,1,Main Campus,40709,,13,0,,,0,0
+2020,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,47907,,1212,947,,,0,0
+2020,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,52017,,20,12,,,0,0
+2020,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,25108,,26,5,,,0,0
+2020,209551,University of Oregon,00322300,1,Main Campus,21752,,5,2,,,0,1
+2020,123961,University of Southern California,00132800,1,University Park Campus,46287,,22,2,,,0,0
+2020,123961,University of Southern California,00132800,2,Health Sciences Campus,46287,,2,4,,,0,0
+2020,123961,University of Southern California,00132800,3,Catalina Island,46287,,0,0,,,0,0
+2020,123961,University of Southern California,00132800,4,Orange County Center,46287,,0,0,,,0,0
+2020,123961,University of Southern California,00132800,5,Sacramento Center,46287,,0,0,,,0,0
+2020,123961,University of Southern California,00132800,6,Marina del Rey,46287,,0,0,,,0,0
+2020,123961,University of Southern California,00132800,7,Health Science Alhambra Building,46287,,0,0,,,0,0
+2020,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,46287,,0,0,,,0,0
+2020,123961,University of Southern California,00132800,9,Aviation Safety & Security,46287,,0,0,,,0,0
+2020,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,48149,,17,5,,,1,0
+2020,240444,University of Wisconsin-Madison,00389500,1,Main Campus,44640,,9,7,,,0,0
+2021,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,45328,,24,14,,,0,0
+2021,171100,Michigan State University,00229000,1,Main Campus,49659,,19,4,,,0,1
+2021,147767,Northwestern University,00173900,1,Main Campus,23409,,5,2,,,0,0
+2021,204796,Ohio State University-Main Campus,00309000,1,Main Campus,61677,,128,547,,,0,1
+2021,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,,,41,22,,,0,0
+2021,243780,Purdue University-Main Campus,00182500,1,Main Campus,50344,,29,7,,,1,0
+2021,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,50804,,17,9,,,0,0
+2021,110662,University of California-Los Angeles,00131500,1,UCLA,46116,,26,28,,,0,0
+2021,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,56607,,10,12,,,0,0
+2021,153658,University of Iowa,00189200,1,Main Campus,29909,,54,27,,,0,0
+2021,163286,University of Maryland-College Park,00210300,1,Main Campus,41272,,20,8,,,0,0
+2021,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,50278,,199,176,,,0,0
+2021,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,52376,,40,10,,,1,0
+2021,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,24431,,18,51,,,0,0
+2021,209551,University of Oregon,00322300,1,Main Campus,22257,,3,5,,,0,0
+2021,123961,University of Southern California,00132800,1,University Park Campus,49318,,16,17,,,0,0
+2021,123961,University of Southern California,00132800,2,Health Sciences Campus,49318,,6,4,,,0,0
+2021,123961,University of Southern California,00132800,3,Catalina Island,49318,,0,0,,,0,0
+2021,123961,University of Southern California,00132800,4,Orange County Center,49318,,0,0,,,0,0
+2021,123961,University of Southern California,00132800,5,Sacramento Center,49318,,0,0,,,0,0
+2021,123961,University of Southern California,00132800,6,Marina del Rey,49318,,0,0,,,0,0
+2021,123961,University of Southern California,00132800,7,Health Science Alhambra Building,49318,,0,0,,,0,0
+2021,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,49318,,0,0,,,0,0
+2021,123961,University of Southern California,00132800,9,Aviation Safety & Security,49318,,0,0,,,0,0
+2021,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,52434,,14,16,,,0,0
+2021,240444,University of Wisconsin-Madison,00389500,1,Main Campus,47016,,19,3,,,0,0
+2022,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,47005,,38,35,,,0,0
+2022,171100,Michigan State University,00229000,1,Main Campus,50023,,19,26,,,0,0
+2022,147767,Northwestern University,00173900,1,Main Campus,23161,,6,3,,,0,0
+2022,204796,Ohio State University-Main Campus,00309000,1,Main Campus,60540,,86,53,,,0,0
+2022,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,50028,,43,26,,,0,0
+2022,243780,Purdue University-Main Campus,00182500,1,Main Campus,51528,,17,4,,,0,1
+2022,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,50637,,16,17,,,0,0
+2022,110662,University of California-Los Angeles,00131500,1,UCLA,46430,,11,15,,,0,0
+2022,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,56916,,19,14,,,0,0
+2022,153658,University of Iowa,00189200,1,Main Campus,30015,,13,18,,,0,0
+2022,163286,University of Maryland-College Park,00210300,1,Main Campus,40792,,19,10,,,0,0
+2022,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,51225,,57,65,,,0,0
+2022,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,54955,,28,26,,,0,0
+2022,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,23805,,44,2,,,0,0
+2022,209551,University of Oregon,00322300,1,Main Campus,23163,,9,11,,,0,0
+2022,123961,University of Southern California,00132800,1,University Park Campus,48945,,26,12,,,0,0
+2022,123961,University of Southern California,00132800,2,Health Sciences Campus,48945,,6,6,,,0,0
+2022,123961,University of Southern California,00132800,3,Catalina Island,48945,,0,0,,,0,0
+2022,123961,University of Southern California,00132800,5,Sacramento Center,48945,,0,0,,,0,0
+2022,123961,University of Southern California,00132800,6,Marina del Rey,48945,,0,0,,,0,0
+2022,123961,University of Southern California,00132800,7,Health Science Alhambra Building,48945,,0,0,,,0,0
+2022,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,48945,,0,0,,,0,0
+2022,123961,University of Southern California,00132800,9,Aviation Safety & Security,48945,,0,0,,,0,0
+2022,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,52319,,20,17,,,0,0
+2022,240444,University of Wisconsin-Madison,00389500,1,Main Campus,48956,,25,11,,,0,1
+2023,151351,Indiana University-Bloomington,00180900,1,Indiana University - Bloomington Campus,47527,,30,18,,,0,0
+2023,171100,Michigan State University,00229000,1,Main Campus,51316,,38,38,,,0,0
+2023,147767,Northwestern University,00173900,1,Main Campus,23203,,5,3,,,0,0
+2023,204796,Ohio State University-Main Campus,00309000,1,Main Campus,60046,,59,366,,,0,0
+2023,214777,Pennsylvania State University-Main Campus,00332900,1,University Park Campus Penn State,50399,,42,25,,,0,2
+2023,243780,Purdue University-Main Campus,00182500,1,Main Campus,52905,,10,5,,,0,0
+2023,186380,Rutgers University-New Brunswick,00262900,1,Main Campus,50617,,14,9,,,0,0
+2023,110662,University of California-Los Angeles,00131500,1,UCLA,46678,,61,58,,,0,0
+2023,145637,University of Illinois Urbana-Champaign,00177500,1,Main Campus,56563,,19,13,,,0,0
+2023,153658,University of Iowa,00189200,1,Main Campus,30042,,51,34,,,0,0
+2023,163286,University of Maryland-College Park,00210300,1,Main Campus,40813,,22,14,,,0,0
+2023,170976,University of Michigan-Ann Arbor,00232500,1,Ann Arbor campus,52065,,33,32,,,0,0
+2023,174066,University of Minnesota-Twin Cities,00396900,1,Main Campus,54890,,26,25,,,0,0
+2023,181464,University of Nebraska-Lincoln,00256500,1,Main Campus,23986,,12,5,,,0,0
+2023,209551,University of Oregon,00322300,1,Main Campus,23786,,8,9,,,0,0
+2023,123961,University of Southern California,00132800,1,University Park Campus,47147,,16,17,,,0,1
+2023,123961,University of Southern California,00132800,2,Health Sciences Campus,47147,,1,13,,,0,0
+2023,123961,University of Southern California,00132800,3,Catalina Island,47147,,0,0,,,0,0
+2023,123961,University of Southern California,00132800,5,Sacramento Center,47147,,0,0,,,0,0
+2023,123961,University of Southern California,00132800,6,Marina del Rey,47147,,0,0,,,0,0
+2023,123961,University of Southern California,00132800,7,Health Science Alhambra Building,47147,,0,0,,,0,0
+2023,123961,University of Southern California,00132800,8,San Diego Alzheimer's Research Institute,47147,,0,0,,,0,0
+2023,123961,University of Southern California,00132800,9,Aviation Safety & Security,47147,,0,0,,,0,0
+2023,236948,University of Washington-Seattle Campus,00379800,1,Main Campus,55620,,8,5,,,0,0
+2023,240444,University of Wisconsin-Madison,00389500,1,Main Campus,49605,,13,5,,,0,0
