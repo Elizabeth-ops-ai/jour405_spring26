@@ -12,3 +12,11 @@ I could shift points, and look at instances of other forms of sexual assault, li
 
 Options: focus on one sexual assault categories, or focus on all sexual assault categories.
 
+Update 4/19/26:
+
+made excel sheet with data going back to 2001. 
+```{r}
+library(tidyverse)
+```
+Criminal_Offenses_On_campus_2_405_final <- read_csv("project/Criminal_Offenses_On_campus (2) 405 final.csv")
+
