@@ -26,7 +26,7 @@ teams <- read_csv("https://raw.githubusercontent.com/dwillis/jour405_files/main/
 Next, we construct a linear model to analyze how different factors like `Yards Gained`, `Takeaways`, and `Points Scored` influence the number of wins. This model helps us quantify the relationships and assess which factors are significant predictors of success.
 
 ```{r}
-model <- lm(Wins ~ `Yards Gained` + Takeaways + `Points Scored`, data = teams)
+model <- lm(Wins ~ Takeaways + `Points Scored`, data = teams)
 summary(model)
 ```
 
@@ -54,7 +54,7 @@ The coefficients tell us the estimated effect of each independent variable on th
 
 Is this a useful model, based on what you've seen? Why?
 
-ANSWER HERE
+This is a useful model because it shows us the right combo of factors that give us a better predicted value. Of all the P-values, points scored are the most significant. We can use it to predict the number of wins, what statistic different teams lacked in that significantly led to their downfalls, etc. Very good model.
 
 ## Correlation Analysis
 
@@ -80,8 +80,10 @@ The results from our correlation analysis show the strength of the relationships
 
 Which of these three factors - Yards Gained, Takeaways and Points Scored - have the most impact on wins? Are there any that do not seem impactful at all?
 
-ANSWER HERE
+The combo of Yards gained and points scored have the highest correlation when it comes to winning games. Takeaways don't seem to have any impact on wins.
 
 ## Using the Model (3 points)
 
 Without using the words "multiple regression model", describe how you could use this model to cover a team or game.
+
+I would use this to cover a team's strategy of what plays worked the best. Is it passing or running the ball? Wide routes, or ones that sneak in between players. I think this would be cool to figure out what teams' specific play weaknesses are, and what plays are the most successful. I would measure yards gained and points scored.
