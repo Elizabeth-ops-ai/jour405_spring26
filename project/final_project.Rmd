@@ -23,6 +23,64 @@ Criminal_Offenses_On_campus_2_405_final <- read_csv("project/Criminal_Offenses_O
 Hypothesis - How much did sexual assault reports show up after the 2017 Me Too movement?
 
 ```{r}
-Criminal_offenses <- read_csv("https://github.com/Elizabeth-ops-ai/jour405_spring26/commit/4de541fa8dadc460c2e0f1905cd326f384e8a24d")
+Criminal_offenses <- read_csv("https://raw.githubusercontent.com/Elizabeth-ops-ai/jour405_spring26/refs/heads/main/project/Criminal_Offenses_On_campus%20(2)%20405%20final.csv")
+```
+Now, I'm going to explore my data:
+
+```{r}
+# Get a summary of the data
+glimpse(Criminal_offenses)
+
+# Check for any missing values
+colSums(is.na(Criminal_offenses))
+
+# Check the total assault range in our data
+min_total <- min(Criminal_offenses$`Total Assault`)
+max_total <- max(Criminal_offenses$`Total Assault`)
+cat("Data ranges from", min_total, "to", max_total)
+
+```
+It seems like 2023-02-06 UTC is the max date, and 2022-02-06 UTC is the min date.
+
+Next, I want to figure out the correlation between the year, institution and total sexual assault.
+
+```{r}
+Criminal_offenses |> summarize(correlation = cor(`Survey year`, `Total Assault`, method="pearson"))
 ```
 
+The correlation is 0.16. Not too strong of a correlation at all. 
+
+I still want to see the data on a scatterplot though. I'll make that now.
+
+```{r}
+Criminal_offenses |>
+  ggplot(aes(x = `Survey year`, y = `Total Assault`)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE, color = "red") +
+  labs(x = "Survey Year", y = "Total Assault",
+       title = "Survey years vs. Total assault, BIG10 Schools")
+```
+
+There looks like a slight positive correlation. After 2017, the year of the Me Too Movement, there looks like some crazy spikes in outliers. Let's take a look at that.
+
+```{r}
+Filtered_offenses <- Criminal_offenses |> filter(`Total Assault` < 250)
+
+model_filtered <- lm(`Total Assault` ~ `Survey year`, data = Filtered_offenses)
+summary(Filtered_offenses)
+```
+```{r}
+cat("Full dataset Criminal_offenses:\n")
+cat("  Coefficient:", coef(Criminal_offenses)[2], "\n")
+cat("  p-value:", summary(Criminal_offenses)$coefficients[2,4], "\n")
+cat("  Adjusted R-squared:", summary(Criminal_offenses)$adj.r.squared, "\n\n")
+
+cat("Filtered dataset model (Total Assault < 250):\n")
+cat("  Coefficient:", coef(Filtered_offenses)[2], "\n")
+cat("  p-value:", summary(Filtered_offenses)$coefficients[2,4], "\n")
+cat("  Adjusted R-squared:", summary(Filtered_offenses)$adj.r.squared, "\n")
+```
+
+I don't understand the error here.
+
+I also want to figure out how to do a line graph of the outliers, but I don't know how. I want to get code on picking them out without having me look through it piece by piece.
