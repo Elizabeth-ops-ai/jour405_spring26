@@ -20,8 +20,9 @@ library(tidyverse)
 ```
 Criminal_Offenses_On_campus_2_405_final <- read_csv("project/Criminal_Offenses_On_campus (2) 405 final.csv")
 
-Potential Hypothesis - How much did sexual assault reports show up after the 2017 Me Too movement?
+Hypothesis - How much did sexual assault reports show up after the 2017 Me Too movement?
 
-Are schools that are more known for partying have bigger reports of sexual assault?
+```{r}
+Criminal_offenses <- read_csv("https://github.com/Elizabeth-ops-ai/jour405_spring26/commit/4de541fa8dadc460c2e0f1905cd326f384e8a24d")
+```
 
-What type of sexual assault is most common on college campuses?
