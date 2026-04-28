@@ -64,23 +64,32 @@ Criminal_offenses |>
 There looks like a slight positive correlation. After 2017, the year of the Me Too Movement, there looks like some crazy spikes in outliers. Let's take a look at that.
 
 ```{r}
-Filtered_offenses <- Criminal_offenses |> filter(`Total Assault` < 250)
+Filtered_offenses <- Criminal_offenses |> filter(`Total Assault` > 250)
 
 model_filtered <- lm(`Total Assault` ~ `Survey year`, data = Filtered_offenses)
 summary(Filtered_offenses)
 ```
 ```{r}
 cat("Full dataset Criminal_offenses:\n")
-cat("  Coefficient:", coef(Criminal_offenses)[2], "\n")
+cat("  Coefficient:", coef(model)[2], "\n")
 cat("  p-value:", summary(Criminal_offenses)$coefficients[2,4], "\n")
 cat("  Adjusted R-squared:", summary(Criminal_offenses)$adj.r.squared, "\n\n")
 
 cat("Filtered dataset model (Total Assault < 250):\n")
-cat("  Coefficient:", coef(Filtered_offenses)[2], "\n")
-cat("  p-value:", summary(Filtered_offenses)$coefficients[2,4], "\n")
-cat("  Adjusted R-squared:", summary(Filtered_offenses)$adj.r.squared, "\n")
+cat("  Coefficient:", coef(model)[2], "\n")
+cat("  p-value:", summary(model)$coefficients[2,4], "\n")
+cat("  Adjusted R-squared:", summary(model)$adj.r.squared, "\n")
 ```
 
 I don't understand the error here.
 
-I also want to figure out how to do a line graph of the outliers, but I don't know how. I want to get code on picking them out without having me look through it piece by piece.
+Let's also run a pre and post 2017 test.
+```{r}
+pre <- Criminal_offenses |> filter(`Survey year` < 2017) |> pull(`Total Assault`)
+post <- Criminal_offenses |> filter(`Survey year` >= 2017) |> pull(`Total Assault`)
+
+t.test(pre, post)
+```
+In the case of this data here with the p-value, there's not a lot of significance at all. 
+
+The seven outliers are all schools that boomed following the Me Too movement in 2017. It ranged from from 6 years from 2018-2021 and 2023. Ohio and Michigan are the two largest numbers of assault numbering in the thousands. After some research, these two schools employeed doctors who assaulted and raped their patients: Dr. Richard Strauss, a team doctor who worked at Ohio from 1978 to 1998, and former sports Dr. Robert Anderson, who worked at Michigan from 1966-2003.
