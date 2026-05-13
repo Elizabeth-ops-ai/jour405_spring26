@@ -20,7 +20,8 @@ library(tidyverse)
 ```
 Criminal_Offenses_On_campus_2_405_final <- read_csv("project/Criminal_Offenses_On_campus (2) 405 final.csv")
 
-Hypothesis - How much did sexual assault reports show up after the 2017 Me Too movement?
+Question - How much did sexual assault reports show up in Big 10 campuses after the 2017 Me Too movement?
+Hypothesis - The Me Too movement significantly increased across these campuses. 
 
 ```{r}
 Criminal_offenses <- read_csv("https://raw.githubusercontent.com/Elizabeth-ops-ai/jour405_spring26/refs/heads/main/project/Criminal_Offenses_On_campus%20(2)%20405%20final.csv")
@@ -59,7 +60,23 @@ Criminal_offenses |>
   geom_smooth(method = "lm", se = FALSE, color = "red") +
   labs(x = "Survey Year", y = "Total Assault",
        title = "Survey years vs. Total assault, BIG10 Schools")
+pre <- Criminal_offenses |> filter(`Survey year` < 2017, !`Institution name` %in% c('University of Michigan-Ann Arbor', 'Ohio State University-Main Campus')) |> pull(`Total Assault`)
+post <- Criminal_offenses |> filter(`Survey year` >= 2017, !`Institution name` %in% c('University of Michigan-Ann Arbor', 'Ohio State University-Main Campus')) |> pull(`Total Assault`)
+
+t.test(pre, post)
 ```
+
+Here's a plot without the large outliers:
+```{r}
+filtered_no_outliers |>
+  ggplot(aes(x = `Survey year`, y = `Total Assault`)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE, color = "orange") +
+  labs(x = "Survey Year", y = "Total Assault",
+       title = "FILTERED Survey years vs. Total assault, BIG10 Schools")
+```
+
+
 
 There looks like a slight positive correlation. After 2017, the year of the Me Too Movement, there looks like some crazy spikes in outliers. Let's take a look at that.
 
@@ -70,26 +87,69 @@ model_filtered <- lm(`Total Assault` ~ `Survey year`, data = Filtered_offenses)
 summary(Filtered_offenses)
 ```
 ```{r}
+model <- lm(`Total Assault` ~ `Survey year`, data = Criminal_offenses)
+
 cat("Full dataset Criminal_offenses:\n")
 cat("  Coefficient:", coef(model)[2], "\n")
-cat("  p-value:", summary(Criminal_offenses)$coefficients[2,4], "\n")
-cat("  Adjusted R-squared:", summary(Criminal_offenses)$adj.r.squared, "\n\n")
-
-cat("Filtered dataset model (Total Assault < 250):\n")
-cat("  Coefficient:", coef(model)[2], "\n")
 cat("  p-value:", summary(model)$coefficients[2,4], "\n")
-cat("  Adjusted R-squared:", summary(model)$adj.r.squared, "\n")
+cat("  Adjusted R-squared:", summary(model)$adj.r.squared, "\n\n")
+cat("Filtered dataset model (Total Assault < 250):\n")
+cat("  Coefficient:", coef(model_filtered)[2], "\n")
+cat("  p-value:", summary(model_filtered)$coefficients[2,4], "\n")
+cat("  Adjusted R-squared:", summary(model_filtered)$adj.r.squared, "\n")
+```
+Here's filtered data without the outliers:
+
+```{r}
+filtered_no_outliers <- Criminal_offenses |> filter(`Total Assault` < 250)
+
+model_filtered <- lm(`Total Assault` ~ `Survey year`, data = filtered_no_outliers)
+summary(filtered_no_outliers)
 ```
 
-I don't understand the error here.
+
 
 Let's also run a pre and post 2017 test.
 ```{r}
 pre <- Criminal_offenses |> filter(`Survey year` < 2017) |> pull(`Total Assault`)
 post <- Criminal_offenses |> filter(`Survey year` >= 2017) |> pull(`Total Assault`)
+pre <- Criminal_offenses |> filter(`Survey year` < 2017, !`Institution name` %in% c('University of Michigan-Ann Arbor', 'Ohio State University-Main Campus')) |> pull(`Total Assault`)
+post <- Criminal_offenses |> filter(`Survey year` >= 2017, !`Institution name` %in% c('University of Michigan-Ann Arbor', 'Ohio State University-Main Campus')) |> pull(`Total Assault`)
 
 t.test(pre, post)
 ```
-In the case of this data here with the p-value, there's not a lot of significance at all. 
+In the case of this data here with the p-value without the filtering, there's major signs of statistical significance. 
+
+Now, I want to dig a little deeper and see if and how specific sexual assault crimes, like rape relate to other crimes like fondling reported by the universities.
+
+
+```{r}
+# Calculate correlation
+cor_value <- cor(filtered_no_outliers$Rape, filtered_no_outliers$Fondling, use = "complete.obs")
+
+# Create scatterplot
+filtered_no_outliers |>
+  ggplot(aes(x = Rape, y = Fondling)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", se = FALSE, color = "hotpink") +
+  labs(
+    x = "Rape Reports",
+    y = "Fondling Reports",
+    title = "Correlation Between Rape and Fondling Reports, Big 10 Schools",
+    subtitle = paste("Pearson correlation:", round(cor_value, 3))
+  ) +
+  theme_minimal()
+
+```
+This data has a strong positive correlation between rape and fondling.
 
 The seven outliers are all schools that boomed following the Me Too movement in 2017. It ranged from from 6 years from 2018-2021 and 2023. Ohio and Michigan are the two largest numbers of assault numbering in the thousands. After some research, these two schools employeed doctors who assaulted and raped their patients: Dr. Richard Strauss, a team doctor who worked at Ohio from 1978 to 1998, and former sports Dr. Robert Anderson, who worked at Michigan from 1966-2003.
+
+With the pink scatterplot, I was able to determine that with cases of rape at these schools, its also extremely likely that the perpetrators committed fondling, too.
+
+Story pitch:
+I think a good approach to this topic would be 
+The 2017 Me Too movement exposed years of sexual assault at various campuses at Big 10 campuses across the country, and encouraged victims to report their assaulters. In my story, I want to report my data and its significance, especially the outliers of Michigan and Ohio State. Not only will I share this data, but I will dive deeper and see how schools are supporting these students and staff. When the movement was in full force, did the university just go with the flow and support only when it was at its height, or did support dwindle down after a few years. Why wasn't more support offered beforehand, regardless of the Me Too movement? The data I have here will be used to support my investigation for my story.
+
+Problems I could face:
+This topic is extremely sensitive, so I expect trouble when asking universities about their school's information, especially since it involves students. I also don't expect people working at the universities to be super willing to answer my questions about their levels of support offered to students because it might put the university under a bad light.
