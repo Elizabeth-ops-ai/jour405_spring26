@@ -46,7 +46,7 @@ set.seed(42)
 
 sample_50 <- ces |> sample_n(50)
 
-proportion_50 <-mean(sample_50$unaffiliated)
+proportion_un_50 <-mean(sample_50$unaffiliated)
 ```
 
 How close is your sample estimate to the original proportion? Is it surprising?
